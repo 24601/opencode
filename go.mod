@@ -15,6 +15,7 @@ require (
 	github.com/charmbracelet/bubbletea v1.3.4
 	github.com/charmbracelet/glamour v0.9.1
 	github.com/charmbracelet/lipgloss v1.1.0
+	github.com/charmbracelet/log v0.4.2
 	github.com/charmbracelet/x/ansi v0.8.0
 	github.com/fsnotify/fsnotify v1.8.0
 	github.com/go-logfmt/logfmt v0.6.0
@@ -34,10 +35,7 @@ require (
 	github.com/stretchr/testify v1.10.0
 )
 
-require (
-	github.com/charmbracelet/log v0.4.2 // indirect
-	golang.org/x/exp v0.0.0-20250305212735-054e65f0b394 // indirect
-)
+require golang.org/x/exp v0.0.0-20250305212735-054e65f0b394 // indirect
 
 require (
 	cloud.google.com/go v0.116.0 // indirect
@@ -74,7 +72,7 @@ require (
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
-	github.com/go-viper/mapstructure/v2 v2.2.1 // indirect
+	github.com/go-viper/mapstructure/v2 v2.4.0 // indirect
 	github.com/golang-jwt/jwt/v5 v5.2.2 // indirect
 	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/google/s2a-go v0.1.8 // indirect
